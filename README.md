@@ -38,11 +38,10 @@ Running the Script
 To run the script, simply clone this repository and execute the script in your terminal:
 
 bash
-Copiar código
 git clone git@github.com:flaviomelian/automated-fullstack-folder-structure.git
 cd automated-fullstack-folder-structure
-chmod +x script.sh
-./script.sh
+chmod +x open-vs-code-js.sh
+./ open-vs-code-js.sh
 Notes
 The script is designed to be compatible with multiple operating systems, but additional adjustments may be needed depending on your specific system setup.
 Installing npm and VS Code may require administrator privileges, so you might need to run the script with sudo on Unix systems.
