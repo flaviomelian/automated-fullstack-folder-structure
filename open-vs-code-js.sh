@@ -89,7 +89,7 @@ touch Home.css Home.jsx
 cd ../../../../../
 mkdir back-end
 cd back-end
-mkdir api database
+mkdir api database models middlewares
 cat << EOF > .env_example
 DB_NAME = 
 DB_USER = 

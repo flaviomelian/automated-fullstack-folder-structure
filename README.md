@@ -37,18 +37,15 @@ Ensure you have administrator permissions if you need to install software (like 
 Running the Script
 To run the script, simply clone this repository and execute the script in your terminal:
 
-bash
-Copiar código
+===bash===
 git clone git@github.com:flaviomelian/automated-fullstack-folder-structure.git
 cd automated-fullstack-folder-structure
 chmod +x script.sh
 ./script.sh
+
+
 Notes
 The script is designed to be compatible with multiple operating systems, but additional adjustments may be needed depending on your specific system setup.
 Installing npm and VS Code may require administrator privileges, so you might need to run the script with sudo on Unix systems.
 Contributions
 If you have suggestions or improvements, feel free to open an issue or submit a pull request.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
