@@ -123,6 +123,7 @@ done
 mkdir -p api/models
 mkdir -p api/routes
 mkdir -p api/middlewares
+mkdir -p api/controllers
 
 # Crear estructuras para cada entidad
 for (( i=1; i<${#entities[@]}; i++ )); do
@@ -134,6 +135,7 @@ for (( i=1; i<${#entities[@]}; i++ )); do
     touch api/models/${entity_dir}_model.js
     touch api/routes/${entity_dir}_route.js
     touch api/middlewares/${entity_dir}_middleware.js
+    touch api/controllers/${entity_dir}_controller.js
 done
 
 # Archivo de configuración de ejemplo
